@@ -1,0 +1,211 @@
+.interrior-dentist-site-description-general {
+  position: relative;
+  padding: 20px 0;
+}
+.interrior-dentist-site {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+.interrior-dentist-site-description {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+}
+.interrior-dentist-site-description h1 {
+  font-size: 50px;
+}
+.interrior-dentist-site-description p {
+  font-size: 20px;
+  color: grey;
+}
+.interrior-dentist-site-description-btns {
+  display: flex;
+  gap: 10px;
+}
+.interrior-dentist-site-image-part {
+  position: relative;
+  width: 50%;
+}
+
+.interrior-dentist-site-image {
+  width: 100%;
+  height: 600px;
+  border-radius: 10px;
+}
+.intro-card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 450px;
+  bottom: -100px;
+}
+.intro-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+.intro-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  width: 330px;
+  position: relative;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  transform: scale(1);
+}
+
+.intro-card::before {
+  content: "";
+  position: absolute;
+  height: 60%;
+  width: 1px;
+  background-color: #d3d3d3;
+  right: 0;
+  top: 20%;
+}
+.intro-card-icon {
+  color: #ffffff;
+  background-color: #635bff;
+  font-size: 50px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.intro-card:hover {
+  transform: translateY(-10px);
+}
+.intro-card-right-part {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  justify-content: center;
+}
+.intro-card h2 {
+  margin-top: 0;
+  color: #007acc;
+}
+
+.intro-card p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: gray;
+  font-weight: 500;
+}
+.intro-card-link {
+  color: #635bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .interrior-dentist-site {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+  .interrior-dentist-site-description {
+    gap: 10px;
+    width: 100%;
+    text-align: center;
+  }
+  .interrior-dentist-site-description-btns {
+    gap: 5px;
+  }
+  .interrior-dentist-site-image-part {
+    width: 100%;
+  }
+  .interrior-dentist-site-image {
+    height: auto;
+  }
+  .book-btn,
+  .telephone {
+    font-size: 14px;
+  }
+  .interrior-dentist-site-description h1 {
+    font-size: 25px;
+  }
+  .interrior-dentist-site-description p {
+    font-size: 14px;
+  }
+  .intro-cards {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .intro-card {
+    width: 100%;
+    max-width: 500px;
+    padding: 15px;
+    border-right: none;
+    border-bottom: 1px solid #dcdcdc; /* açıq boz xətt */
+  }
+
+  .intro-card:last-child {
+    border-bottom: none;
+  }
+
+  .intro-card-container {
+    position: static;
+    width: 100%;
+    margin-top: 30px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .interrior-dentist-site {
+    text-align: center;
+  }
+  .interrior-dentist-site-image {
+    max-width: 600px;
+    height: auto;
+    margin-top: 50px !important;
+  }
+  .book-btn,
+  .telephone {
+    font-size: 14px;
+  }
+  .interrior-dentist-site-description h1 {
+    font-size: 25px;
+  }
+  .interrior-dentist-site-description p {
+    font-size: 14px;
+  }
+  .intro-cards {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .intro-card {
+    width: 100%;
+    max-width: 500px;
+    padding: 15px;
+    border-right: none;
+    border-bottom: 1px solid #dcdcdc; /* açıq boz xətt */
+  }
+
+  .intro-card:last-child {
+    border-bottom: none;
+  }
+
+  .intro-card-container {
+    position: static;
+    width: 100%;
+    margin-top: 30px;
+  }
+  /* planset ucun kartlari sorus */
+}

@@ -1,0 +1,64 @@
+.happy-ill-container {
+  padding: 60px 0;
+}
+.happy-ill {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+  background-color: #f2f1ff;
+  border-radius: 20px;
+}
+.happy-ill-first {
+  padding-left: 100px;
+  color: gray;
+}
+.happy-ill-first h1 {
+  margin-bottom: 20px;
+}
+.happy-ill-second {
+  height: 100%;
+  /* ??; */
+}
+.happy-ill-second img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  /* cover */
+  border-radius: 5px;
+}
+@media (max-width: 768px) {
+  .happy-ill {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+  .happy-ill-first {
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .happy-ill-first h1 {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .happy-ill-second img {
+    width: 100%;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .happy-ill-first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .happy-ill-first h1 {
+    font-size: 25px;
+    text-align: center;
+  }
+}

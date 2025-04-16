@@ -1,0 +1,77 @@
+.about-page-second {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  flex-direction: column;
+  padding: 60px 0;
+  text-align: center;
+  position: relative;
+}
+
+.about-cards-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  flex-direction: column;
+  padding: 60px 0px;
+  text-align: center;
+}
+.team-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  flex-direction: column;
+  padding: 60px 0px;
+  text-align: center;
+}
+.about-page-second p {
+  font-size: 20px;
+  color: grey;
+}
+.about-picture {
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+  border-radius: 20px;
+  /* box-shadow: 0 10px 20px #0000001a; */
+  margin-bottom: 20px;
+}
+.about-images {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding: 50px;
+  justify-content: center;
+}
+.about-picture img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.about-picture.first-rotated {
+  transform: rotate(-8deg);
+}
+.about-picture.second-rotated {
+  transform: rotate(8deg);
+}
+@media (max-width: 768px) {
+  .about-page-second p {
+    font-size: 20px;
+  }
+  .about-picture {
+    width: 100%;
+    object-fit: contain;
+  }
+  .about-images {
+    flex-direction: column;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .about-page-second p {
+    font-size: 20px;
+  }
+}

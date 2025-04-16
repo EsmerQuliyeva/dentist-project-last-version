@@ -1,0 +1,68 @@
+.team-container h1 {
+  font-size: 40px;
+}
+.doctors-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.doc-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+  flex-direction: column;
+}
+.doctor-info {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+.doc-info img {
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+}
+.doc-info-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.doctor-message-icon {
+  background-color: #635bff;
+  border-radius: 50%;
+  color: #ffffff;
+  font-size: 30px;
+  padding: 6px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.doctor-telephone-icon {
+  background-color: #635bff;
+  border-radius: 50%;
+  color: #ffffff;
+  font-size: 30px;
+  padding: 6px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 768px) {
+  .team-container h1 {
+    font-size: 25px;
+  }
+  .doctors-container {
+    flex-direction: column;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .team-container h1 {
+    font-size: 25px;
+  }
+  .doctors-container {
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6e842d2b.css",
+    "main.js": "/static/js/main.94662246.js",
+    "static/media/happy-ill.jpg": "/static/media/happy-ill.b0ec58fa1e4aa6f10c02.jpg",
+    "static/media/cosmetic-tooth.png": "/static/media/cosmetic-tooth.f783f06e0cc07ebc918c.png",
+    "static/media/logo.png": "/static/media/logo.4492d4bf058f77e80e36.png",
+    "static/media/sophie-CdUBmCFc.jpg": "/static/media/sophie-CdUBmCFc.0b07b5caed085ff373fe.jpg",
+    "static/media/lila-DuuYARB5.jpg": "/static/media/lila-DuuYARB5.174711657f95dbb701be.jpg",
+    "static/media/happy-team.jpg": "/static/media/happy-team.b6f45784be46fd91ede2.jpg",
+    "static/media/about-image.jpg": "/static/media/about-image.3c405316b309d8bd67db.jpg",
+    "static/media/happy-dentist.jpg": "/static/media/happy-dentist.3ee188547aa76a36bc20.jpg",
+    "static/media/doc.avif": "/static/media/doc.deffb6d570e3122bae12.avif",
+    "static/media/morgan-BpynVxgl.jpg": "/static/media/morgan-BpynVxgl.fef52bccaab44b38259a.jpg",
+    "static/media/hygiene-dentist.svg": "/static/media/hygiene-dentist.09d7afdba77c8a7709000ad18d984011.svg",
+    "static/media/ortho-dentistt.svg": "/static/media/ortho-dentistt.3e12e71390c9354920ec85f809c755b9.svg",
+    "index.html": "/index.html",
+    "main.6e842d2b.css.map": "/static/css/main.6e842d2b.css.map",
+    "main.94662246.js.map": "/static/js/main.94662246.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6e842d2b.css",
+    "static/js/main.94662246.js"
+  ]
+}

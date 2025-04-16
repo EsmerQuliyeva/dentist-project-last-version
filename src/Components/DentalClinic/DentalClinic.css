@@ -1,0 +1,49 @@
+.about-page-first {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 50px;
+}
+
+.team-container h1 {
+  font-size: 50px;
+}
+.about-page-first h1,
+.about-cards-container h1 {
+  font-size: 40px;
+}
+.about-page-first p {
+  font-size: 25px;
+  color: grey;
+}
+.about-client {
+  width: 80%;
+  height: auto;
+  max-height: 450px;
+  border-radius: 15px;
+  display: block;
+  object-fit: cover;
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  .about-page-first h1 {
+    font-size: 25px;
+  }
+  .about-page-first p {
+    font-size: 20px;
+  }
+  .about-client {
+    max-height: 300px; /* daha kiçik hündürlük */
+    object-fit: contain; /* şəkil kəsilməsin deyə */
+    padding: 10px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .about-page-first h1 {
+    font-size: 25px;
+  }
+  .about-page-first p {
+    font-size: 20px;
+  }
+}

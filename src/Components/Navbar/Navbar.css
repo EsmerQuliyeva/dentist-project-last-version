@@ -1,0 +1,173 @@
+.nav-general-container {
+  margin: 0 auto;
+  padding: 0 40px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.logo {
+  width: 90px;
+  height: 70px;
+}
+
+.logo-container h2 {
+  font-size: 30px;
+}
+.link-logo {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+
+.nav-links-container {
+  list-style: none;
+  display: flex;
+  gap: 50px;
+  font-size: 20px;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-weight: bold;
+  color: gray;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: rgb(143, 130, 238);
+}
+
+.nav-link.selected {
+  color: rgb(143, 130, 238);
+}
+
+.nav-btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.telephone {
+  border-radius: 5px;
+  padding: 10px 20px;
+  background-color: white;
+  font-size: 15px;
+  border: 2px solid gray;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+  border: 2px solid gainsboro;
+  color: gray;
+}
+
+.telephone:hover {
+  background-color: gray;
+  color: white;
+}
+.telephone-icon {
+  font-size: 20px;
+  color: #635bff;
+}
+.book-btn {
+  background-color: #635bff;
+  color: white;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 15px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #5146e0;
+}
+.hamburger {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .hamburger {
+    display: none;
+    font-size: 28px;
+    cursor: pointer;
+  }
+  .nav-links-container {
+    position: absolute;
+    top: 90px;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    flex-direction: column;
+    text-align: center;
+    display: none;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 3;
+  }
+  .nav-links-container.active {
+    display: flex;
+    padding: 20px 0;
+  }
+
+  .hamburger {
+    display: block;
+  }
+  .nav-container {
+    display: flex;
+    gap: 30px;
+  }
+  .nav-btns {
+    display: none;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .hamburger {
+    display: none;
+    font-size: 28px;
+    cursor: pointer;
+  }
+  .nav-links-container {
+    position: absolute;
+    top: 90px;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    flex-direction: column;
+    text-align: center;
+    display: none;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 3;
+  }
+  .nav-links-container.active {
+    display: flex;
+    padding: 20px 0;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .nav-btns {
+    display: none;
+  }
+}

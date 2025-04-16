@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: #f5f7fa; /* Açıq boz ton */
+  color: #333333; /* Mətn rəngi */
+}
+.container {
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    margin: 0 auto;
+    padding: 0 5px;
+  }
+  /* .subscribe-btn {
+    padding: 8px 10px;
+    font-size: 12px;
+  } */
+  .happy-client-img {
+    display: none;
+  }
+  /* bax bu hisseye */
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .container {
+    margin: 0 auto;
+    padding: 0 10px;
+  }
+  /* .subscribe-btn {
+    padding: 4px 10px;
+    font-size: 12px;
+  } */
+}
